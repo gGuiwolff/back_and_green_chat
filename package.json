@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "build": "webpack --mode production",
+        "build": "node app.js",
         "dev:client": "webpack serve --mode development",
         "dev": "concurrently \"npm:dev:*\" --kill-others",
         "start": "node app.js",
