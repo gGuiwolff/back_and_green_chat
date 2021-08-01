@@ -11,7 +11,7 @@ const compression = require("compression");
 const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config({ path: __dirname + "/./config/config.env" });
-const csurf = require("csurf");
+//const csurf = require("csurf");
 const { requireLoggedInUser } = require("./middleware/auth");
 const cookieSession = require("cookie-session");
 const {
